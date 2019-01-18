@@ -28,13 +28,14 @@ class students
     //Destructor
     ~students()
     {
-        cout << "destructore called" << endl;
+        cout << "destructore called" << " " <<id << endl;
     }
 };
 int main() 
 {
     // stu1 object will call default constructor
     students stu1;
+    stu1.id = 14;
     
     //stu2 will call perametric constructor
     students stu2(12);
