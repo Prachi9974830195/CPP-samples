@@ -24,6 +24,12 @@ class students
         cout << "we are in parametric constructor" << endl;
         cout << "student id is :" << stu_id;
     }
+    
+    //Destructor
+    ~students()
+    {
+        cout << "destructore called" << endl;
+    }
 };
 int main() 
 {
